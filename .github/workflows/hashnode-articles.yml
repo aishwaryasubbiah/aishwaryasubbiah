@@ -1,30 +1,16 @@
-name: Latest Hashnode Articles
+name: Latest hashnode blog posts
 on:
-  schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
-
+  schedule: # Run workflow automatically
+    - cron: '0 * * * *' 
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
 jobs:
-  update-readme-with-hashnode-articles:
-    name: Update this repo's README with latest Hashnode Articles
+  update-readme-with-hashnode-blog:
+    name: Update this repo's README with the latest hashnode blog posts
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Fetch Hashnode Articles
-        env:
-          HASHNODE_API_KEY: ${{ secrets.HASHNODE_API_KEY }}  # Add your secret name
-        run: |
-          ARTICLES=$(curl -s -H "Authorization: $HASHNODE_API_KEY" "https://api.hashnode.com/v1/users/aishwaryas/posts")
-          # Extract article titles and URLs using jq (make sure jq is installed)
-          TITLES=$(echo "$ARTICLES" | jq -r '.data[].title')
-          URLS=$(echo "$ARTICLES" | jq -r '.data[].url')
-          # Combine titles and URLs into markdown format
-          MARKDOWN=""
-          for i in $(seq 0 $(expr $(echo "$TITLES" | wc -l) - 1)); do
-            TITLE=$(echo "$TITLES" | sed -n "$((i + 1))p")
-            URL=$(echo "$URLS" | sed -n "$((i + 1))p")
-            MARKDOWN+="[$TITLE]($URL)\n"
-          done
-          # Replace <!-- HASHNODE_ARTICLES --> placeholder in README.md
-          sed -i "s/<!-- HASHNODE_ARTICLES -->/$MARKDOWN/" README.md
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "4"
+          comment_tag_name: "HASHNODE_ARTICLES"
+          feed_list: "https://aishwaryas.hashnode.dev/rss.xml"
