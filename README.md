@@ -48,8 +48,8 @@
 </p>
 
 ## <a href="https://aishwaryas.hashnode.dev/"><img src="https://github.com/FrancescoXX/FrancescoXX/blob/main/dev-black.png" title="Hashnode" alt="Hashnode" width="25"/></a>   Recent Articles on Hashnode    
- <!-- Hashnode-BLOG-LIST:START -->
-<!-- Hashnode-BLOG-LIST:END -->
+<!-- HASHNODE_ARTICLES -->
+<!-- HASHNODE_ARTICLES -->
 
 ## <a href="https://auth.geeksforgeeks.org/user/aishwaryasum/articles/"><img src="https://github.com/FrancescoXX/FrancescoXX/blob/main/dev-black.png" title="GFG" alt="GFG" width="25"/></a>   Recent Articles on GeeksforGeeks    
  <!-- GFG-BLOG-LIST:START -->
