@@ -47,9 +47,13 @@
 <a href="/https://aishwaryas.hashnode.dev/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://aishwaryas.hashnode.dev/" height="30" width="40" /></a>
 </p>
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+## <a href="https://aishwaryas.hashnode.dev/"><img src="https://github.com/FrancescoXX/FrancescoXX/blob/main/dev-black.png" title="Hashnode" alt="Hashnode" width="25"/></a>   Recent Articles on Hashnode    
+ <!-- Hashnode-BLOG-LIST:START -->
+<!-- Hashnode-BLOG-LIST:END -->
+
+## <a href="https://auth.geeksforgeeks.org/user/aishwaryasum/articles/"><img src="https://github.com/FrancescoXX/FrancescoXX/blob/main/dev-black.png" title="GFG" alt="GFG" width="25"/></a>   Recent Articles on GeeksforGeeks    
+ <!-- GFG-BLOG-LIST:START -->
+<!-- GFG-BLOG-LIST:END -->
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=aishwaryasubbiah&show_icons=true&locale=en&layout=compact" alt="aishwaryasubbiah" /></p>
 
