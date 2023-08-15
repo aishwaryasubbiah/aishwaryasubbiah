@@ -49,6 +49,10 @@
 
 ## <a href="https://aishwaryas.hashnode.dev/"><img src="https://github.com/FrancescoXX/FrancescoXX/blob/main/dev-black.png" title="Hashnode" alt="Hashnode" width="25"/></a>   Recent Articles on Hashnode    
 <!-- HASHNODE_ARTICLES:START -->
+- [Various ways to execute MongoDB queries](https://aishwaryas.hashnode.dev/various-ways-to-execute-mongodb-queries)
+- [Aggregation using MongoDB compass](https://aishwaryas.hashnode.dev/aggregation-using-mongodb-compass)
+- [Hybrid Encryption](https://aishwaryas.hashnode.dev/hybrid-encryption)
+- [Thunder Client - Postman alternative](https://aishwaryas.hashnode.dev/thunder-client-postman-alternative)
 <!-- HASHNODE_ARTICLES:END -->
 
 ## <a href="https://auth.geeksforgeeks.org/user/aishwaryasum/articles/"><img src="https://github.com/FrancescoXX/FrancescoXX/blob/main/dev-black.png" title="GFG" alt="GFG" width="25"/></a>   Recent Articles on GeeksforGeeks    
