@@ -15,8 +15,7 @@ jobs:
         env:
           HASHNODE_API_KEY: ${{ secrets.HASHNODE_API_KEY }}  # Add your secret name
         run: |
-          HASHNODE_USERNAME="aishwaryas"
-          ARTICLES=$(curl -s -H "Authorization: $HASHNODE_API_KEY" "https://api.hashnode.com/v1/users/$HASHNODE_USERNAME/posts")
+          ARTICLES=$(curl -s -H "Authorization: $HASHNODE_API_KEY" "https://api.hashnode.com/v1/users/aishwaryas/posts")
           # Extract article titles and URLs using jq (make sure jq is installed)
           TITLES=$(echo "$ARTICLES" | jq -r '.data[].title')
           URLS=$(echo "$ARTICLES" | jq -r '.data[].url')
