@@ -47,7 +47,7 @@
 <a href="/https://aishwaryas.hashnode.dev/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://aishwaryas.hashnode.dev/" height="30" width="40" /></a>
 </p>
 
-## <a href="https://aishwaryas.hashnode.dev/"><img src="https://github.com/FrancescoXX/FrancescoXX/blob/main/dev-black.png" title="Hashnode" alt="Hashnode" width="25"/></a>   Recent Articles on Hashnode    
+## <a href="https://aishwaryas.hashnode.dev/"><img src="https://github.com/aishwaryasubbiah/aishwaryasubbiah/blob/main/hashnode.png" title="Hashnode" alt="Hashnode" width="25"/></a>   Recent Articles on Hashnode    
 <!-- HASHNODE_ARTICLES:START -->
 - [Various ways to execute MongoDB queries](https://aishwaryas.hashnode.dev/various-ways-to-execute-mongodb-queries)
 - [Aggregation using MongoDB compass](https://aishwaryas.hashnode.dev/aggregation-using-mongodb-compass)
