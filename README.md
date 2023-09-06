@@ -59,6 +59,8 @@
  <!-- GFG-BLOG-LIST:START -->
 <!-- GFG-BLOG-LIST:END -->
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=aishwaryasubbiah&show_icons=true&locale=en&layout=compact" alt="aishwaryasubbiah" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aishwaryasubbiah&" alt="aishwaryasubbiah" /></p>
+<p>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aishwaryasubbiah&" alt="aishwaryasubbiah" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=aishwaryasubbiah&show_icons=true&locale=en&layout=compact" alt="aishwaryasubbiah" />
+</p>
