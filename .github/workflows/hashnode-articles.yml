@@ -1,16 +1,31 @@
-name: Latest hashnode blog posts
+name: Latest Hashnode Posts
+
 on:
-  schedule: # Run workflow automatically
-    - cron: '30 3 * * *' 
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: # Run workflow manually
+
 jobs:
   update-readme-with-hashnode-blog:
-    name: Update this repo's README with the latest hashnode blog posts
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch Hashnode posts
+        uses: aishwaryasubbiah/fetch-hashnode-articles@main
         with:
-          max_post_count: "4"
-          comment_tag_name: "HASHNODE_ARTICLES"
-          feed_list: "https://aishwaryas.hashnode.dev/rss.xml"
+          max_post_count: 5
+          hashnode_url: "aishwaryas.hashnode.dev"
+          updateReadMe: true
+          readmePath: "README.md"
+
+
+      - name: Commit update
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "Update blog list" || exit 0
+          git push
