@@ -2,7 +2,7 @@ name: Latest Hashnode Posts
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "30 3 * * 1"
   workflow_dispatch: # Run workflow manually
 
 jobs:
