@@ -56,12 +56,6 @@
 <!-- BLOG-POST-LIST:END -->
 
 <!--
-- [GraphLookup in Mongodb](https://aishwaryas.hashnode.dev/graphlookup-in-mongodb)
-- [Various ways to execute MongoDB queries](https://aishwaryas.hashnode.dev/various-ways-to-execute-mongodb-queries)
-- [Aggregation using MongoDB compass](https://aishwaryas.hashnode.dev/aggregation-using-mongodb-compass)
-- [Hybrid Encryption](https://aishwaryas.hashnode.dev/hybrid-encryption)
--->
-<!--
 ## <a href="https://auth.geeksforgeeks.org/user/aishwaryasum/articles/"><img src="https://github.com/FrancescoXX/FrancescoXX/blob/main/dev-black.png" title="GFG" alt="GFG" width="25"/></a>   Recent Articles on GeeksforGeeks    -->
  <!-- GFG-BLOG-LIST:START -->
 <!-- GFG-BLOG-LIST:END -->
